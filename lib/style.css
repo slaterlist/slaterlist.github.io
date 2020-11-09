@@ -1,0 +1,15 @@
+/* Add your styles here */
+.body {
+    width:500px;
+    margin:10px auto;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    padding:5px;
+}
+.h1 {
+    text-shadow: 3px 3px 5px black;
+}
+.button{
+    background-color: darkgray
+}
