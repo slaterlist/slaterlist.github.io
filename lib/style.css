@@ -164,16 +164,17 @@ form a.delete:active {
 
 
 
-/* .body {
+/*  .body {
     width:500px;
     margin:10px auto;
     color: white;
     font-size: 20px;
     background-color: red;
     padding:5px;
-}
-/* .h1 {
-    font-size: 100px;
-    text-shadow: 3px 3px 5px black;
 } */
+
+.h1 {
+    font-size: 40px;
+    text-shadow: 3px 3px 5px black;
+}
 
