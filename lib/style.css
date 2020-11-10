@@ -173,7 +173,7 @@ form a.delete:active {
     padding:5px;
 } */
 
-.h1 {
+h1 {
     font-size: 40px;
     text-shadow: 3px 3px 5px black;
 }
