@@ -49,11 +49,11 @@ h1 {
     font-size: 40px;
     text-shadow: 3px 3px 5px black;
 }
-input#item {
+#item {
     float:left;
     margin-bottom:5px;
 }
-input#remove {
+#remove {
     float:right;
     margin-bottom:20px;
     margin-right:5px;
@@ -62,7 +62,7 @@ input#remove {
      font-size:smaller;
       width: 65px;
 }
-input#adds {
+#adds {
     float:left;
     margin-bottom:10px;
     margin-right:5px;
