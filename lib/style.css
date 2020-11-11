@@ -20,7 +20,6 @@ a:active {
     color: white;
 }
 body {
-    color: blue;
     font-size: 40px;
     background-color: red;
 }
@@ -28,7 +27,6 @@ body {
     margin:2px; background:#0a0f9e; color:#ffdb17;text-align:center;font-size:x-small;
     }
 #label {
-    color: white;
     font-size: 15px;
      float:left;
     padding-right: 15px;
