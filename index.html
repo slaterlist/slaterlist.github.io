@@ -11,17 +11,21 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="RVCList" content="Add to Home">
 <meta name="description" content="JS App Created by RVC Web233 Students">
-<meta name="author" content="Chuck Konkol">
+<meta name="author" content="Bernard Slater">
   </head>
   <body>
       <script src="lib/script.js"></script>
      <div id="wrapper">
     <h1>Shopping List</h1>
      <label>Item</label><input type="text" id="item" name="item" onkeydown = "if (event.keyCode == 13)
-                        document.getElementById('btnSubmit').click()" maxlength="18" placeholder="enter item < 19 characters"/><input class="button" id="btnSubmit" name="submit" type="button" value="+Add" onclick="addShoppinglist(item.value)" /><br>
+                        document.getElementById('btnSubmit').click()" maxlength="18" placeholder="enter item < 19 characters"/>
+       <input class="button" id="btnSubmit" name="submit" type="button" value="+Add" onclick="addShoppinglist(item.value)" /><br>
   <p id="MyList"></p>
   <p id="labels"></p>
-   <p id="MyCart"></p>   
+   <p id="MyCart"></p> 
+     <center><input class="button" id="about" name="submit" type="submit" value="about" onclick="about()" /> </center>
+    <center><p id="sharelist"></p></center>
+     <center><p id="sharebutton"></p></center>  
     <p id="footer"><b><a href="http://rvchourofcode.com" target="_blank">Join the Rock Valley College Hour of Code Family</a></b></p>   
     <center><input class="button" id="about" name="submit" type="submit" value="About" onclick="about()" /></center>
    </div>
