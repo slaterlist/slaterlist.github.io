@@ -45,7 +45,8 @@ label {
     margin:20px auto;
     padding:20px;
     border-radius: 5px 5px 0 0;
-    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 0 5px rgba(0, 0, 0, .3);
+/*     box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 0 5px rgba(0, 0, 0, .3); */
+     animation: colorChange 5s infinite;
     border: 1px solid #6f212f;
 }
 h1 {
@@ -171,11 +172,11 @@ form a.delete:active {
     text-shadow: none;
 }
 
-#boxColor {
+/* #boxColor {
   width: 100px;
   height: 100px;
   animation: colorChange 5s infinite;
-}
+} */
 
 @keyframes colorChange {
   50% {box-shadow: 10px 20px 30px black;}
