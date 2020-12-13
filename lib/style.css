@@ -186,4 +186,6 @@ button {
 background-color: darkgray;
 }
 
-
+button:hover {
+    color: red;
+}
